@@ -1,0 +1,53 @@
+/* Estilos personalizados para o formulário de login e cadastro */
+
+.container {
+    margin-top: 50px;
+}
+
+.row {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2, h4 {
+    margin-bottom: 20px;
+    color: #343a40;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #343a40;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+.btn-primary {
+    width: 100%;
+}
+
+/* Estilos específicos para o botão de voltar */
+.btn.btn-warning[href="index.php"],
+.btn.btn-primary[href="pessoa_cadastro_salvar.php"] {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #212529;
+}
+
+.btn.btn-warning[href="index.php"]:hover,
+.btn.btn-primary[href="pessoa_cadastro_salvar.php"]:hover {
+    background-color: #e0a800;
+    border-color: #e0a800;
+}
+
+.btn.btn-warning[href="index.php"]:focus,
+.btn.btn-primary[href="pessoa_cadastro_salvar.php"]:focus {
+    box-shadow: 0 0 0 0.25rem rgba(255, 193, 7, 0.5);
+}
