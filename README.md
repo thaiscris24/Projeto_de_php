@@ -21,11 +21,11 @@
 
 Este projeto foi desenvolvido com as seguintes tecnologias:
 
-✔️PHP
-✔️ CSS
-✔️HTML
-✔️ JAVASCRIPT
-✔️SCSS
+- ✔️PHP
+- ✔️ CSS
+- ✔️HTML
+- ✔️ JAVASCRIPT
+- ✔️SCSS
 
 # Pré-requisitos
 
